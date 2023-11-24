@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel = "icon" href = "images/log.png" type = "image/x-icon">
+
+  <title> WorshipWanderers </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Open+Sans:wght@300;600&family=Raleway:wght@300&family=Roboto+Mono:wght@200&family=Syne&display=swap" rel="stylesheet">
+  <style>
+    html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+    .hero_area .bg-box img{
+      opacity: 0.4;
+    }
+    .navbar-akr #line{
+      height: 0.8vh;
+    background-color: #a0138e;
+    
+    }
+    
+    .navbar-ak header{
+    position:relative;
+    color:black;
+    }
+
+    .navbar-akr header nav a span #siteName{
+        height:45px;
+        right:24%;
+        position:relative;
+        background-color: white;
+        box-sizing: border-box;
+      
+    }
+    .navbar-akr header nav a span #siteName img{
+        height:55px;
+        display: inline-block;
+        bottom:20%;
+        position: relative;
+
+
+      
+    }
+
+
+    .navbar-akr header nav a span #siteName h3{
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+  
+        color:black;
+        font-weight: bolder;
+        font-size: 35px;
+
+    }
+    @media screen and (max-width:800px){
+    
+      .navbar-akr header nav a span #siteName h3{
+        font-size: 90%;
+  
+    }
+
+}
+@media screen and (max-width:350px){
+  
+    .navbar-akr header nav a span #siteName h3{
+        margin:4% 3%;
+        font-size: 100%;
+  
+    }
+    
+}
+    .navbar-akr header nav #navbarSupportedContent ul li a{
+      color: black;
+    }
+    .navbar-akr header nav #navbarSupportedContent form input{
+      display: inline-block;
+
+
+    }
+    .navbar-akr header nav #navbarSupportedContent form button{
+      display: inline-block;
+      font-size: 25px;
+    font-weight: lighter;
+    height:2.5rem;
+    width:5rem;
+    border-radius: 0;
+    border: 2px solid #a0138e;
+    background-color: white;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+  
+
+    }
+    
+
+
+    .custom_nav-container .navbar-nav {
+        padding-left: 0;
+    }
+
+
+    /* hero aera */
+    .hero_area{
+      background-image: url("images/back.png");
+      
+      background-size: cover;
+    }
+    .slider_section .carousel-indicators li.active {
+
+    background-color:black;
+    
+    }
+    .offer_section .box {
+    
+    background-color: white;
+    color: black;
+    border:1px solid black;
+    border-radius: 0;
+   }
+   .offer_section .box {
+    
+    background-color: white;
+    color: black;
+    border:2px solid black;
+    border-radius: 0;
+   }
+   .offer_section .box .img-box {
+    border:1px solid black;
+   }
+   .offer_section .box .img-box img {
+     height:100%;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+   }
+   /* temples */
+   .food_section .box {
+    border:1px solid black;
+    border-radius:0;
+ }
+   .food_section .box .detail-box {
+    background-color: white;
+    color:black;
+  }
+   /* about */
+   .about_section{
+    background-color: rgb(206,235,76);
+   }
+   /* footer */
+   .footer_section{
+    background-color: white;
+    color:black;
+   }
+   .footer_section p{
+    
+    color:black !important;
+   }
+    
+  </style>
+</head>
+
+<body>
+  <div class="navbar-akr">
+    <div id="line"></div>
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              <div id="siteName">
+                <img src="images/log.png">
+                <h3>WorshipWanderers</h3>
+                
+            </div>
+            </span>
+          </a>
+  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto ">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#review-sec">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-sec">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book-sec">search hotels</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search Temples" aria-label="Search">
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+  
+  <div class="hero_area">
+    <!-- header section strats -->
+     <!-- <div class="bg-box">
+            <img src="images/hero-bg.png" alt="">
+          </div> -->
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    
+                    <h1 style="font-family: 'Syne', sans-serif;">
+                      Sanchi Stupa
+                    </h1>
+                    <p>
+                      Surrounded by the ruins of smaller stupas and monasteries, Sanchi Stupa is an architectural marvel in Sanchi, believed to house the relics of Lord Buddha. Also known as the Great Stupa, this famous pilgrimage site in India was built by the Indian Emperor Ashoka, the Great in the 3rd century BC.
+                    </p>
+                    <div class="btn-box">
+                      <a href="#review-sec" class="btn1" style="background-color: black; border:0; border-radius:0;">
+                        Explore
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1 style="font-family: 'Syne', sans-serif;">
+                      Siddhivinayak Temple
+                    </h1>
+                    <p>
+                      Located in Prabhadevi, Mumbai, Siddhivinayak Temple is one of the eight Ganesha Temples in Maharashtra. It is also one of the richest temples in India. Lord Ganesha is the supreme deity of the temple who is always the first one to be worshipped before commencing something new in life.
+                    </p>
+                    <div class="btn-box">
+                      <a href="#review-sec" class="btn1" style="background-color: black; border:0; border-radius:0;">
+                        Explore
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1 style="font-family: 'Syne', sans-serif;">
+                      Khajuraho Temple
+                    </h1>
+                    <p>
+                      Khajuraho is a town in the state of Madhya Pradesh, which houses several temples built between 10th to 12th centuries. Spread across an area of 20 sq km, the monuments of the town are part of the UNESCO World Heritage Sites.The temples are built of sandstone and dedicated to the deities of Hinduism and Jainism. The temples are popular worldwide for the erotic cravings, which can be seen along with other cravings depicting the daily chores of life.
+                    </p>
+                    <div class="btn-box" >
+                      <a href="#review-sec" class="btn1" style="background-color: black; border:0; border-radius:0;">
+                        Explore
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <ol class="carousel-indicators">
+            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#customCarousel1" data-slide-to="1"></li>
+            <li data-target="#customCarousel1" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- offer section -->
+
+  <section class="offer_section layout_padding-bottom">
+    <div class="offer_container">
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-6  ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/varanasi.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5 style="font-size:2rem; font-family: 'Syne', sans-serif;">
+                  Varanasi, U.P.
+                </h5>
+                <p style="font-size:0.8rem;">
+                  Varanasi is a city in the northern Indian state of Uttar Pradesh dating to the 11th century B.C. Regarded as the spiritual capital of India, the city draws Hindu pilgrims who bathe in the Ganges River’s sacred waters and perform funeral rites. Along the city's winding streets are some 2,000 temples, including Kashi Vishwanath, the “Golden Temple,” dedicated to the Hindu god Shiva.
+
+                </p>
+                <div class="btn-box" >
+                  <a href="#review-sec" class="btn1" style="background-color: black; border:0; border-radius:0;">
+                    Explore Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6  ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/bhubaneshwar.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5 style="font-size:2rem; font-family: 'Syne', sans-serif;">
+                  Bhubaneswar, Odisha
+                </h5>
+                <p style="font-size:0.8rem;">
+                  Bhubaneswar is an ancient city in India’s eastern state of Odisha, formerly Orissa. Many temples built from sandstone are dotted around Bindu Sagar Lake in the old city, including the 11th-century Hindu Lingaraja Temple. Outside Rajarani Temple are sculpted figures of the guardians of the 8 cardinal and ordinal directions. Jain antiques, weaponry and indigenous pattachitra paintings fill the Odisha State Museum.
+
+                </p>
+                <div class="btn-box" >
+                  <a href="#review-sec" class="btn1" style="background-color: black; border:0; border-radius:0;">
+                    Explore Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end offer section -->
+
+  <!-- food section -->
+
+  <section class="food_section layout_padding-bottom" id="review-sec">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2 style="font-family: 'Syne', sans-serif;">
+          Popular Temples
+        </h2>
+      </div>
+
+      <ul class="filters_menu">
+        <li class="active" data-filter="*">All</li>
+        <li data-filter=".burger">Varanasi</li>
+        <li data-filter=".pizza">Punjab</li>
+        <li data-filter=".pasta">Bhubaneswar</li>
+        <li data-filter=".fries">Jaipur</li>
+      </ul>
+
+      <div class="filters-content">
+        <div class="row grid">
+          <div class="col-sm-6 col-lg-4 all pizza">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/badrinath.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Badrinath Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all burger">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/meenakshi.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Meenakshi Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all pasta">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/goldenTemple1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Golden Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all fries">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/somnath.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Somnath Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all pizza">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/badrinath.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Badrinath Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all burger">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/meenakshi.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Meenakshi Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all pasta">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/goldenTemple1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Golden Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all fries">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/somnath.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Somnath Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="col-sm-6 col-lg-4 all pizza">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/badrinath.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Badrinath Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all burger">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/meenakshi.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Meenakshi Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all pasta">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/goldenTemple1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Golden Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all fries">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/temples/somnath.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Somnath Temple
+                  </h5>
+                  <p>
+                    Nestled in the Himalayas, Badrinath, dedicated to Lord Vishnu, captivates with its serene beauty, sacred aura, and the vibrant Neelkanth Peak as its backdrop.
+                  </p>
+                  <div class="btn-box">
+                    <a href="reviewtemple.html" class="btn1" style="background-color: black; border:0; border-radius:0; color:white">
+                      Review
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+          
+          
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="" style="background-color: black; border:0; border-radius:0;">
+          View More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end food section -->
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding" id="about-sec">
+    <div class="container  ">
+
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/bells2.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2 style="color:black; font-family:'Syne', sans-serif;">
+                We Are WorshipWanderers
+              </h2>
+            </div>
+            <p style="color:black">
+              TAt WorshipWanderers, our passion is to unveil the essence of sacred spaces through insightful temple reviews. We are a dedicated community of travelers, culture enthusiasts, and spiritual seekers who believe that every temple holds a unique story waiting to be shared. Our mission is to provide you with a window into the world of temples, offering a glimpse of their historical significance, architectural marvels, and the spiritual experiences they offer.
+            </p>
+            <a href="" style="background-color: black; border:0; border-radius:0;">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- book section -->
+  <section class="book_section layout_padding" id="book-sec">
+    <div class="container">
+      <div class="heading_container">
+        <h2 style="font-family: 'Syne', sans-serif;">
+          Book A Hotel Nearby
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form_container">
+            <form action="">
+              <div>
+                <input type="text" class="form-control" placeholder="Your Name" />
+              </div>
+              <div>
+                <input type="text" class="form-control" placeholder="Phone Number" />
+              </div>
+              <div>
+                <input type="email" class="form-control" placeholder="Your Email" />
+              </div>
+              <div>
+                <select class="form-control nice-select wide">
+                  <option value="" disabled selected>
+                    How many persons?
+                  </option>
+                  <option value="">
+                    2
+                  </option>
+                  <option value="">
+                    3
+                  </option>
+                  <option value="">
+                    4
+                  </option>
+                  <option value="">
+                    5
+                  </option>
+                </select>
+              </div>
+              <div>
+                <input type="date" class="form-control">
+              </div>
+              <div class="btn_box">
+                <button style="background-color: black; border:0; border-radius:0;">
+                  Book Now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="map_container ">
+            <div id="googleMap"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end book section -->
+
+  <!-- client section -->
+<!-- 
+  <section class="client_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container heading_center psudo_white_primary mb_45">
+        <h2>
+          What Says Our Customers
+        </h2>
+      </div>
+      <div class="carousel-wrap row ">
+        <div class="owl-carousel client_owl-carousel">
+          <div class="item">
+            <div class="box">
+              <div class="detail-box">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </p>
+                <h6>
+                  Moana Michell
+                </h6>
+                <p>
+                  magna aliqua
+                </p>
+              </div>
+              <div class="img-box">
+                <img src="images/client1.jpg" alt="" class="box-img">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="detail-box">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </p>
+                <h6>
+                  Mike Hamell
+                </h6>
+                <p>
+                  magna aliqua
+                </p>
+              </div>
+              <div class="img-box">
+                <img src="images/client2.jpg" alt="" class="box-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- end client section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+  
+      <div class="footer-info">
+        <p>@
+           <span id="displayYear"></span> All Rights Reserved By
+          <a href="">WorshipWanderers</a><br><br>
+          <span id="displayYear"></span> 
+        
+        </p>
+      </div>
+    
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- isotope js -->
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>
