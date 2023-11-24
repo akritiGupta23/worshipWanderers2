@@ -670,6 +670,14 @@ nav #navbarNav li a{
     }
   
 }
+@media screen and (max-width:500px){
+  
+    #shop #main-card .card .content a button{
+    
+    font-size: 0.7rem;
+    
+   
+}
 /* blog */
 #blog{
     height:750px;
@@ -925,8 +933,8 @@ form #btn:hover{
     }
     form #btn{
         bottom:-15px;
-        height:40px;
-        font-size: 0.5rem;
+        height:50px;
+        font-size: 0.6rem;
         
     
     }
@@ -936,7 +944,7 @@ form #btn:hover{
     
     form #btn{
         
-        font-size: 0.4rem;
+        font-size: 0.6rem;
         
     
     }
