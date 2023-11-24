@@ -438,7 +438,7 @@ nav #navbarNav li a{
     margin: 10% 0;
     text-align: left;
     height:50%;
-    overflow: scroll;
+    overflow: auto;
    
 }
  #recipe3Carousel .card-body .temple-box .temple-details button{
@@ -692,7 +692,7 @@ nav #navbarNav li a{
 }
 
 #blog #right {
-    overflow: scroll;
+    overflow: auto;
     position:relative;
     top:25%;
     height: 60%;
