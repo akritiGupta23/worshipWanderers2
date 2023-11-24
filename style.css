@@ -728,16 +728,18 @@ nav #navbarNav li a{
     #blog{
        flex-direction: column;
        height:fit-content;
-       padding-top: 10%;
+      padding-top: 4%;
     }
     #blog #left{
+        top:5%;
         width:100%;
         left: 30%; 
-        margin-bottom: 10%;
+        height:40%;
+        margin-bottom: 7%;
     
     }
     #blog #left img{
-        height:50%;
+        height:100%;
         width:40%;
       
   
@@ -752,14 +754,38 @@ nav #navbarNav li a{
 }
 @media screen and (max-width:500px){
     #blog{
-       flex-direction: column;
-       height:fit-content;
-       padding-top: 10%;
+        flex-direction: column;
+        height:600px;
+       padding-top: 3%;
+     }
+     #blog #left{
+        
+        height:25%;
+        margin-bottom: 3%;
+   
+    
+    }
+     #blog #left img{
+        height:100%;
+        width:40%;
+      
+  
+    }
+    #blog #right{
+        top:10%;
+    }
+     #blog #right h3{
+
+        font-size: 1.3em;
+   
+    }
+    #blog #right h6{
+
+        font-size: 1rem;
+       
     }
    
-    #blog #right {
-        overflow: auto;  
-    }
+  
     #blog #right p{
     
        
@@ -769,6 +795,9 @@ nav #navbarNav li a{
         
     }
 }
+
+
+
 /* photo */
 #photo{
     height:850px;
