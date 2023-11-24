@@ -83,8 +83,7 @@ nav{
 
 }
 
-
-nav #navbarNav .buttn a{
+nav .buttn a{
     display: inline-block;
     text-align: center;
     font-size: 25px;
@@ -101,7 +100,6 @@ nav #navbarNav .buttn a{
   
 
  }
- 
 
  nav #navbarNav li{
     
@@ -166,6 +164,18 @@ nav #navbarNav li a{
   
 }
 @media screen and (max-width:800px){
+    nav .buttn a{
+      
+       
+   
+        height:2rem;
+        width:4rem;
+        font-size: 0.6rem;
+        
+       
+      
+    
+     }
     
     #main-container{
         height:400px;
