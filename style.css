@@ -463,6 +463,10 @@ nav #navbarNav li a{
     }}
    
  @media (max-width: 650px){
+    #famous-temples{
+        height: 820px;
+        padding:3% 7%;
+    }
     
     #recipe3Carousel .card-body .temple-box .temple-details h4{
      
@@ -470,9 +474,29 @@ nav #navbarNav li a{
 
        
      }
-    #famous-temples{
-        height: 550px;
+   
+    #recipe3Carousel .carousel-item .card-body{
+    height:730px;
+    border-radius:0%;
+    border-color: black;
+  
+  
+   }
+    #recipe3Carousel .card-body .temple-box{
+        flex-direction: column;
     }
+    #recipe3Carousel .card-body .temple-box img{
+        width:100%;
+    }
+    #recipe3Carousel .card-body .temple-box .temple-details{
+        width:100%;
+    }
+    #recipe3Carousel .card-body .temple-box .temple-details .para{
+   
+    margin: 5% 5%;
+    
+   
+}
     #recipe3Carousel .card-body .temple-box .temple-details button{
     
         font-size: 0.8rem;
@@ -482,6 +506,21 @@ nav #navbarNav li a{
        
      }
 }
+ @media (max-width: 500px){
+     #famous-temples{
+        height: 750px;
+      
+    }
+    #recipe3Carousel .carousel-item .card-body{
+    height:570px;
+
+  
+  
+   }
+    
+ }
+   
+
 
 /* about */
 #about{
