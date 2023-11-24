@@ -979,22 +979,15 @@ form #btn:hover{
     }
     form #btn{
         bottom:-15px;
-        height:50px;
-        font-size: 0.6rem;
+        width:24%;
+        height:40px;
+        font-size: 0.8rem;
         
     
     }
   
 }
-@media screen and (max-width:350px){
-    
-    form #btn{
-        
-        font-size: 0.6rem;
-        
-    
-    }
-}
+
 
 /* footer */
 footer{
